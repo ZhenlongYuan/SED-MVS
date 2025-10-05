@@ -1,6 +1,6 @@
 # SED-MVS
 
-**Yuan, Zhenlong** and Yang, Zhidong and Cai, Yujun and Wu, Kuangxin and Liu, Mufan and Zhang, Dapeng and Jiang, Hao and Li, Zhaoxin and Wang, Zhaoqi, [**SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint**](https://arxiv.org/pdf/2503.13721), IEEE TCSVT 2025.
+**Yuan, Z.**, Yang, Z., Cai, Y., Wu, K., Liu, M., Zhang, D., Jiang H, Li Z., Wang, Z., [**SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint**](https://arxiv.org/pdf/2503.13721), IEEE TCSVT 2025.
 ![](images/SED-MVS.png)
 
 ## About
