@@ -1,28 +1,23 @@
-# MSP-MVS
+# SED-MVS
 
-Zhenlong Yuan, Cong Liu, Fei Shen, Zhaoxin Li, Jingguo luo, Tianlu Mao and Zhaoqi Wang, [**MSP-MVS: Multi-Granularity Segmentation Prior Guided Multi-View Stereo**](https://arxiv.org/pdf/2407.19323), AAAI 2025.
+**Yuan, Zhenlong** and Yang, Zhidong and Cai, Yujun and Wu, Kuangxin and Liu, Mufan and Zhang, Dapeng and Jiang, Hao and Li, Zhaoxin and Wang, Zhaoqi, [**SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint**](https://arxiv.org/pdf/2503.13721), IEEE TCSVT 2025.
 ![](images/SED-MVS.png)
 
 ## About
-MSP-MVS aggregates multi-granularity SAM model **Semantic-SAM** with multi-view stereo(**MVS**) algorithm to address patch deformation instability of PatchMatch-based MVS.
-
-Our paper was accepted by **AAAI2025**!
+SED-MVS adopts panoptic segmentation via **SAM2** and multi-trajectory diffusion strategy via **LoFTR** for segmentation-driven and edge-aligned patch deformation. 
+Our paper was accepted by **IEEE TCSVT 2025**!
 
 If you find this project useful for your research, please cite:  
 
 ```
-@InProceedings{MSP-MVS,
-  title = {{{MSP-MVS}}: {{Multi-Granularity Segmentation Prior Guided Multi-View Stereo}}},
-  shorttitle = {{{MSP-MVS}}},
-  author = {Yuan, Zhenlong and Liu, Cong and Shen, Fei and Li, Zhaoxin and Luo, Jinguo and Mao, Tianlu and Wang, Zhaoqi},
-  year = {2024},
-  month = dec,
-  number = {arXiv:2407.19323},
-  eprint = {2407.19323},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  archiveprefix = {arXiv}
+@article{yuan2025sed,
+  title={SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint},
+  author={Yuan, Zhenlong and Yang, Zhidong and Cai, Yujun and Wu, Kuangxin and Liu, Mufan and Zhang, Dapeng and Jiang, Hao and Li, Zhaoxin and Wang, Zhaoqi},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2025},
+  publisher={IEEE}
 }
+
 ```
 ## Code
 Code is coming soon.
